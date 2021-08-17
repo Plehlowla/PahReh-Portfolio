@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="header">
+    <div class="header" id="about">
         <img src="images/pic1.PNG" alt="profile">
         <h1>Hi, I'm Pah</h1>
         <h2>Scroll Down for more Info.</h2>
@@ -19,10 +19,38 @@
     
     <ul id="navbar">
         <li><a href="#about">About</a></li>
-        <li><a href="#home">Home</a></li>
+        <!-- <li><a href="#home">Home</a></li> -->
         <li><a href="#skill">Skills</a></li>
         <li><a href="#education">Education</a></li>
     </ul>
+
+    <h1 id='skill'>My Skills</h1>
+
+    <div class="tab">
+        <button class="tablinks" onmouseover="openSkill(event, 'html')">HyperTextMarkup</button>
+        <button class="tablinks" onmouseover="openSkill(event, 'css')">Cascading Style Sheets</button>
+        <button class="tablinks" onmouseover="openSkill(event, 'js')">JavsScript</button>
+        <button class="tablinks" onmouseover="openSkill(event, 'python')">Python</button>
+    </div>
+
+    <div id="html" class="tabcontent">
+        <h3>HyperTextMarkup</h3>
+        <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+    </div>
+    <div id="css" class="tabcontent">
+        <h3>Cascading Style Sheets</h3>
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+    </div>
+    <div id="js" class="tabcontent">
+        <h3>JavaScript</h3>
+        <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+    </div>
+    <div id="python" class="tabcontent">
+        <h3>Python</h3>
+        <p>Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
+    </div>
+
+    <div class="clearfix"></div>
 
     <h3>Sticky Navigation Bar Example</h3>
 <p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
