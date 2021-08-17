@@ -132,3 +132,24 @@ body{
     clear:both;
     display: table;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    float: right;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
