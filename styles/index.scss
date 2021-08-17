@@ -67,9 +67,12 @@ body{
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            transition: transform .2s;
+            margin: 0 5px;
         }
         a:hover{
             background-color: #111;
+            transform: scale(1.2);
         }
     }
 }

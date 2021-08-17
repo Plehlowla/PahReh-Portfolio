@@ -76,10 +76,17 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  margin: 0 5px;
 }
 
 #navbar li a:hover {
   background-color: #111;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 #skill {
